@@ -1,1 +1,2 @@
-﻿Some text here
+Some text here
+Ще якийсь новий текст для комміту
