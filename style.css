@@ -1,0 +1,223 @@
+body  {
+    background-color: black;
+    font-family: monospace;
+    color: whitesmoke;
+    padding-top: 72px;
+    line-height: 1.6;
+}
+
+.headings {
+	color: hotpink;
+}
+
+.uniqueh3 {
+	font-family: monospace;
+	color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.rectangle {
+    width: 300px;
+    height: 450px;
+    background-color: hotpink;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.rectangle:hover {
+    transform: scale(1.05);
+}
+
+.mainimg {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.mainimg:hover {
+	transform: scale(1.05);
+}
+
+#list {
+	color: whitesmoke;
+}
+
+strong {
+	color: hotpink;
+}
+
+.navigation {
+    position: fixed;
+    top: 16px;
+    left: 8px;
+    right: 8px;
+    z-index: 1000;
+    display: flex;
+    gap: 16px;
+    justify-content: right;
+    align-items: center;
+    background-color: hotpink;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    padding: 12px 16px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color .2s ease, transform .2s ease;
+}
+
+.navigation a:hover {
+    background-color: rgba(255,255,255,0.5);
+    transform: translateY(-1px);
+}
+
+.socials {
+	text-decoration: none;
+    color: hotpink;
+}
+
+.contact-container {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 40px;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-form {
+  flex: 1;
+  background-color: hotpink;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 20px 25px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 2px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 16px;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #ffe3ec;
+}
+
+.formh3 {
+  color: whitesmoke;
+}
+
+#formstr {
+  color: whitesmoke;
+}
+
+#pink {
+  color: hotpink;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+#pink a {
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.gallery-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 60px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.gallery-block.left .text-side {
+  order: 1;
+}
+.gallery-block.left .photo-side {
+  order: 2;
+}
+.gallery-block.right .text-side {
+  order: 2;
+  text-align: right;
+}
+.gallery-block.right .photo-side {
+  order: 1;
+}
+
+.text-side {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.photo-side {
+  flex: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.photo-side img {
+  width: 45%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 6px;
+  transition: transform 0.3s ease;
+}
+
+.photo-side img:hover {
+  transform: scale(1.05);
+}
+
+.divider {
+  border: none;
+  height: 2px;
+  width: 60%;
+  margin: 60px auto;
+  background: linear-gradient(to right, transparent, hotpink, transparent);
+  border-radius: 100%;
+}
